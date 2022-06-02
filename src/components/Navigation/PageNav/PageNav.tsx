@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Pagination, Stack } from '@mui/material';
-import { useAppStateSelector } from '../../store/selectors';
-import { useMainActions } from '../../hooks/useMainActions';
+import { useAppStateSelector } from '../../../store/selectors';
+import { useMainActions } from '../../../hooks/useMainActions';
 
 const PageNav: FC = () => {
   const {
